@@ -43,7 +43,7 @@ const BootcampSchema = new mongoose.Schema({
 		// GeoJSON Point
 		type: {
 			type: String,
-			enum: [ 'Point' ],
+			enum: [ 'Point' ]
 		},
 
 		coordinates: {
