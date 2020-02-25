@@ -43,3 +43,5 @@ exports.updateBootcamp = (req, res, next) => {
 exports.deleteBootcamp = (req, res, next) => {
 	return res.status(200).json({ sucess: true, msg: `delete bootcamp ${req.params.id}` })
 }
+
+// quick test to see if my commits are working properly again - ignore this just a quick test
